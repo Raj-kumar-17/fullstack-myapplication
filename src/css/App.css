@@ -1,0 +1,26 @@
+.home{
+
+height: 55px;
+width:99.2%;
+font-size: 20px;
+font-weight: bold; 
+padding: 5px;
+
+background:#ff6666;
+
+
+}
+
+a{
+  color:blue;
+}
+
+.wel{
+	text-align: center;
+	height: 50px;
+width:100%;
+margin-top: -20px;
+background:#3385ff;
+color:black;
+
+}

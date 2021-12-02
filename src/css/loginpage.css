@@ -1,0 +1,54 @@
+.log{
+
+	background:#100C07;
+	width:100%;
+	height:82vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.cont{
+	width:470px;
+	height: 290px;
+	 background-color: rgba(0,0,0,.5);
+	 border-radius: 15px;
+}
+
+h2{
+	color:white;
+}
+
+label{
+	color:white;
+	padding:10px;
+}
+
+.email{
+	margin-left:25px;
+}
+
+input[type=text],input[type=password]{
+	 border:0;
+	 outline: 0;
+	 border-style: none;
+}
+
+input[type=button]{
+	width:150px;
+	height: 37px;
+	margin-top: 25px;
+	margin-left:40px; 
+	border-style: none;
+	font-size: 15px;
+	font-weight:bold;
+}
+
+p{
+	color: white;
+}
+
+input[type=button]:hover{
+	background: #4CAF50;
+}
