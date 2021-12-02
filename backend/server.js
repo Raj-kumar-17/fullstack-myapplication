@@ -11,9 +11,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cors());
 
 //database
-mongoose.connect(process.env.MONGO_URI,{
+mongoose.connect('mongodb+srv://rahul:KTRzyG9VIXPqTMHZ@cluster0.xagpg.mongodb.net/mycollection?retryWrites=true&w=majority'||process.env.MONGO_URI,{
     useUnifiedTopology:true
-})
+},{ useNewUrlParser: true })
 
 .then(()=> {console.log('Connected to database successfully!');
 })
@@ -27,7 +27,7 @@ mongoose.connect(process.env.MONGO_URI,{
 app.use("/",require("./userserver"));
 
 //server
-const PORT=process.env.PORT || 4000;
+const PORT=process.env.PORT ||4000;
 
 
 
