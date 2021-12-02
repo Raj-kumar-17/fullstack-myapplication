@@ -26,7 +26,7 @@
     "server": "node backend/server",
     "client": "npm start",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "cd backend && npm install && npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install  && npm run build "
   },
   "eslintConfig": {
     "extends": [
