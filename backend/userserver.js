@@ -3,7 +3,7 @@ const router=express.Router();
 const schema=require('./dataschema.js');
 
 
-router.route("/newuser").post((req,res)=>{
+router.route("/Signup").post((req,res)=>{
 
     const Firstname=req.body.Firstname;
     const Lastname=req.body.Lastname;
@@ -35,7 +35,7 @@ router.route("/newuser").post((req,res)=>{
 });
 
 
-router.route("/LoginUser").post((req,res)=>{
+router.route("/login").post((req,res)=>{
      const Email=req.body.Email;
     const Password=req.body.Password;
 
